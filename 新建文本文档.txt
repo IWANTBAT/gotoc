@@ -1,0 +1,215 @@
+Microsoft Windows [版本 10.0.18362.535]
+(c) 2019 Microsoft Corporation。保留所有权利。
+
+C:\WINDOWS\system32>node -v
+v12.14.0
+
+C:\WINDOWS\system32>npm -v
+6.13.4
+
+C:\WINDOWS\system32>npm install -g cnpm --registry=https://registry.npm.taobao.org
+C:\Users\wxw18\AppData\Roaming\npm\cnpm -> C:\Users\wxw18\AppData\Roaming\npm\node_modules\cnpm\bin\cnpm
++ cnpm@6.1.1
+added 681 packages from 938 contributors in 694.035s
+
+C:\WINDOWS\system32>cnpm
+Usage: cnpm [option] <command>
+Help: http://cnpmjs.org/help/cnpm
+
+  Extend command
+    web                            open cnpm web (ex.: cnpm web)
+    check [ingoreupdate]           check project dependencies, add ignoreupdate will not check modules' latest version(ex.: cnpm check, cnpm check -i)
+    doc [moduleName]               open document page (ex.: cnpm doc urllib)
+    sync [moduleName]              sync module from source npm (ex.: cnpm sync urllib)
+    user [username]                open user profile page (ex.: cnpm user fengmk2)
+
+  npm command use --registry=https://r.npm.taobao.org
+    where <command> is one of:
+    add-user, adduser, apihelp, author, bin, bugs, c, cache,
+    completion, config, ddp, dedupe, deprecate, docs, edit,
+    explore, faq, find, find-dupes, get, help, help-search,
+    home, i, info, init, install, isntall, la, link, list, ll,
+    ln, login, ls, outdated, owner, pack, prefix, prune,
+    publish, r, rb, rebuild, remove, restart, rm, root,
+    run-script, s, se, search, set, show, shrinkwrap, star,
+    start, stop, submodule, tag, test, tst, un, uninstall,
+    unlink, unpublish, unstar, up, update, v, version, view,
+    whoami
+      npm <cmd> -h     quick help on <cmd>
+      npm -l           display full usage info
+      npm faq          commonly asked questions
+      npm help <term>  search for help on <term>
+      npm help npm     involved overview
+
+      Specify configs in the ini-formatted file:
+          C:\Users\wxw18\.cnpmrc
+      or on the command line via: npm <command> --key value
+      Config info can be viewed via: npm help config
+
+C:\WINDOWS\system32>cnpm -v
+cnpm@6.1.1 (C:\Users\wxw18\AppData\Roaming\npm\node_modules\cnpm\lib\parse_argv.js)
+npm@6.13.4 (C:\Users\wxw18\AppData\Roaming\npm\node_modules\cnpm\node_modules\npm\lib\npm.js)
+node@12.14.0 (C:\Program Files\nodejs\node.exe)
+npminstall@3.25.2 (C:\Users\wxw18\AppData\Roaming\npm\node_modules\cnpm\node_modules\npminstall\lib\index.js)
+prefix=C:\Users\wxw18\AppData\Roaming\npm
+win32 x64 10.0.18362
+registry=https://r.npm.taobao.org
+
+C:\WINDOWS\system32>cnpm install -g hexo-cli
+Downloading hexo-cli to C:\Users\wxw18\AppData\Roaming\npm\node_modules\hexo-cli_tmp
+Copying C:\Users\wxw18\AppData\Roaming\npm\node_modules\hexo-cli_tmp\_hexo-cli@3.1.0@hexo-cli to C:\Users\wxw18\AppData\Roaming\npm\node_modules\hexo-cli
+Installing hexo-cli's dependencies to C:\Users\wxw18\AppData\Roaming\npm\node_modules\hexo-cli/node_modules
+[1/11] abbrev@^1.1.1 installed at node_modules\_abbrev@1.1.1@abbrev
+[2/11] bluebird@^3.5.5 installed at node_modules\_bluebird@3.7.2@bluebird
+[3/11] command-exists@^1.2.8 installed at node_modules\_command-exists@1.2.8@command-exists
+[4/11] minimist@^1.2.0 installed at node_modules\_minimist@1.2.0@minimist
+[5/11] tildify@^2.0.0 installed at node_modules\_tildify@2.0.0@tildify
+[6/11] acorn@^7.0.0 installed at node_modules\_acorn@7.1.0@acorn
+[7/11] resolve@^1.11.0 installed at node_modules\_resolve@1.14.1@resolve
+platform unsupported hexo-fs@2.0.0 › chokidar@3.3.1 › fsevents@~2.1.2 Package require os(darwin) not compatible with your platform(win32)
+[fsevents@~2.1.2] optional install error: Package require os(darwin) not compatible with your platform(win32)
+[8/11] hexo-fs@^2.0.0 installed at node_modules\_hexo-fs@2.0.0@hexo-fs
+[9/11] chalk@^2.4.2 installed at node_modules\_chalk@2.4.2@chalk
+[10/11] hexo-log@^1.0.0 installed at node_modules\_hexo-log@1.0.0@hexo-log
+[11/11] hexo-util@^1.4.0 installed at node_modules\_hexo-util@1.8.1@hexo-util
+Recently updated (since 2019-12-23): 2 packages (detail see file C:\Users\wxw18\AppData\Roaming\npm\node_modules\hexo-cli\node_modules\.recently_updates.txt)
+  2019-12-27
+    → hexo-util@1.8.1 › highlight.js@9.17.1 › handlebars@4.5.3 › uglify-js@^3.1.4(3.7.3) (08:51:43)
+  2019-12-24
+    → hexo-util@^1.4.0(1.8.1) (19:32:52)
+All packages installed (82 packages installed from npm registry, used 4s(network 4s), speed 762.06kB/s, json 79(191.36kB), tarball 2.79MB)
+[hexo-cli@3.1.0] link C:\Users\wxw18\AppData\Roaming\npm\hexo@ -> C:\Users\wxw18\AppData\Roaming\npm\node_modules\hexo-cli\bin\hexo
+
+C:\WINDOWS\system32>hexo -v
+hexo-cli: 3.1.0
+os: Windows_NT 10.0.18362 win32 x64
+node: 12.14.0
+v8: 7.7.299.13-node.16
+uv: 1.33.1
+zlib: 1.2.11
+brotli: 1.0.7
+ares: 1.15.0
+modules: 72
+nghttp2: 1.39.2
+napi: 5
+llhttp: 1.1.4
+http_parser: 2.8.0
+openssl: 1.1.1d
+cldr: 35.1
+icu: 64.2
+tz: 2019c
+unicode: 12.1
+
+C:\WINDOWS\system32>pwd
+'pwd' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+
+C:\WINDOWS\system32>chdir
+C:\WINDOWS\system32
+
+C:\WINDOWS\system32>mkdir blog
+拒绝访问。
+
+C:\WINDOWS\system32>mkdir blog
+拒绝访问。
+
+C:\WINDOWS\system32>mkdir blog
+拒绝访问。
+
+C:\WINDOWS\system32>mkdir [-p] blog
+拒绝访问。
+处理: [-p] 时出错。
+拒绝访问。
+处理: blog 时出错。
+
+C:\WINDOWS\system32>cd ..
+
+C:\Windows>mkdir bolg
+拒绝访问。
+
+C:\Windows>powershell bolg
+bolg : 无法将“bolg”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确
+，然后再试一次。
+所在位置 行:1 字符: 1
++ bolg
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (bolg:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+
+C:\Windows>cd system32
+
+C:\Windows\System32>powershell bolg
+bolg : 无法将“bolg”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确
+，然后再试一次。
+所在位置 行:1 字符: 1
++ bolg
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (bolg:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+
+C:\Windows\System32>mkdir bolg
+拒绝访问。
+
+C:\Windows\System32>cd blog/
+系统找不到指定的路径。
+
+C:\Windows\System32>cd ..
+
+C:\Windows>cd blog/
+系统找不到指定的路径。
+
+C:\Windows>cd system32
+
+C:\Windows\System32>cd ..
+
+C:\Windows>mkdir blog
+拒绝访问。
+
+C:\Windows>cd ..
+
+C:\>mkdir blog
+
+C:\>cd blog
+
+C:\blog>chdir
+C:\blog
+
+C:\blog>sudo hexo init
+'sudo' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+
+C:\blog>hexo init
+INFO  Cloning hexo-starter https://github.com/hexojs/hexo-starter.git
+Cloning into 'C:\blog'...
+remote: Enumerating objects: 30, done.
+remote: Counting objects: 100% (30/30), done.
+remote: Compressing objects: 100% (24/24), done.
+                                                                                                                        Receiving objects: 100% (161/161), 31.79 KiB | 7.00 KiB/s, done.
+Resolving deltas: 100% (74/74), done.
+Submodule 'themes/landscape' (https://github.com/hexojs/hexo-theme-landscape.git) registered for path 'themes/landscape'
+Cloning into 'C:/blog/themes/landscape'...
+remote: Enumerating objects: 32, done.
+remote: Counting objects: 100% (32/32), done.
+remote: Compressing objects: 100% (25/25), done.
+fatal: early EOFs:  55% (585/1054), 2.07 MiB | 2.00 KiB/s
+fatal: the remote end hung up unexpectedly
+fatal: index-pack failed
+error: RPC failed; curl 18 transfer closed with outstanding read data remaining
+fatal: clone of 'https://github.com/hexojs/hexo-theme-landscape.git' into submodule path 'C:/blog/themes/landscape' failed
+Failed to clone 'themes/landscape'. Retry scheduled
+Cloning into 'C:/blog/themes/landscape'...
+remote: Enumerating objects: 32, done.
+remote: Counting objects: 100% (32/32), done.
+remote: Compressing objects: 100% (25/25), done.
+fatal: early EOFs:  95% (1004/1054), 2.62 MiB | 4.00 KiB/s
+fatal: the remote end hung up unexpectedly
+fatal: index-pack failed
+error: RPC failed; curl 56 OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054
+fatal: clone of 'https://github.com/hexojs/hexo-theme-landscape.git' into submodule path 'C:/blog/themes/landscape' failed
+Failed to clone 'themes/landscape' a second time, aborting
+[43mWARN [49m git clone failed. Copying data instead
+[43mWARN [49m Failed to install dependencies. Please run 'npm install' manually!
+
+C:\blog>cd blog
